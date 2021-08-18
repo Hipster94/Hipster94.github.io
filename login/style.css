@@ -1,0 +1,54 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: url("./img/background.png");
+  background-size: cover;
+}
+.container {
+  width: 500px;
+  height: 500px;
+
+  background: #ffffff;
+  border-radius: 30px;
+}
+.btn-orange {
+  padding: 0.8rem;
+  font-weight: 600;
+  background: #ef8a3d;
+  border-radius: 10px;
+}
+.btn-orange:focus {
+  box-shadow: none;
+}
+.form-control {
+  padding: 0.7rem;
+  color: #9c9c9c !important;
+  border: 3px solid #ededed;
+  background: #ededed;
+  border-radius: 10px;
+}
+.form-control:focus {
+  border: 3px solid #ededed;
+  color: black !important;
+  box-shadow: none;
+}
+.form-control::placeholder {
+  font-weight: 500;
+  color: #9c9c9c;
+}
+
+@media (max-width: 500px) {
+  .form-control {
+    padding: 0.4rem;
+  }
+  .btn-orange {
+    padding: 0.5rem;
+  }
+  .container {
+    width: 350px;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+}
